@@ -226,17 +226,6 @@ nav{
     background-color: white;
     color: black;
 }
-@keyframes scale {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
 .size{
     margin: 10px 10px 10px 0;
     border: 2px solid black;
