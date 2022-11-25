@@ -120,8 +120,6 @@ currentProductSize.forEach((size)=>{
     })
 })
 
-
-
 productBuyEl.addEventListener("click",()=>{
     paymentEl.style.display="flex";
 })

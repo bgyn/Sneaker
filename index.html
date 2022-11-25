@@ -9,7 +9,7 @@
   </head>
   <body>
     <!---------------------- nav ----------------------->
-    <nav>
+    <nav id="nav">
         
         <div class="navTop">
             <div class="navItem">
@@ -139,17 +139,110 @@
             <img src="./img/visa.png" width="40" class="cardicon">
             <img src="./img/master.png" width="40" class="cardicon">
         </div>
-        <input type="text" class="payinput" placeholder="Card Number">
+        <input type="text" class="payinput" placeholder="Card Number" maxlength="16">
         <div class="cardinfo">
             <input type="text" placeholder="mm" class="payinput">
             <input type="text" placeholder="yyyy" class="payinput">
             <input type="text" placeholder="cvv" class="payinput">
         </div>
         <button class="checkoutbtn">CheckOut</button>
-        <button class="closebtn"><img src="./img/close.png" class="closeimg"></buttonc>
+        <button class="closebtn"><img src="./img/close.png" class="closeimg"></button>
     </div>
 </div>
 <!----------------- product -------------------->
+
+<!----------------- Gallery -------------------->
+
+<div class="gallery">
+    <div class="galleryitem">
+        <h1 class="gallerytitle">Be YourSelf!</h1>
+        <img src="https://images.unsplash.com/photo-1513188732907-5f732b831ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="galleryimg">
+    </div>
+    <div class="galleryitem">
+        <img src="https://images.unsplash.com/photo-1637941720745-8a6932e141a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmlrZSUyMG5ldyUyMHNob2VzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=600&q=60" class="galleryimg">
+        <h1 class="gallerytitle">Just Do It!</h1>
+    </div>
+    <div class="galleryitem">
+        <h1 class="gallerytitle">Recreate Your Style!</h1>
+        <img src="https://images.unsplash.com/photo-1613740105081-e88271c0211f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG5pa2UlMjBuZXclMjBzaG9lc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60" class="galleryimg">
+    </div>
+</div>
+<div class="newseason">
+    <div class="nsitem">
+        <img src="https://images.unsplash.com/photo-1592771404380-467f535c7c4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5pa2UlMjBzaG9lc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60" class="nsimg">
+    </div>
+    <div class="nsitem">
+        <h3 class="nstitlesm">WINTER NEW ARIVALS</h3>
+        <h1 class="nstitle">New Season</h1>
+        <h1 class="nstitle">New Collection</h1>
+        <a href="#nav">
+            <button class="nsbutton">CHOOSE YOUR STYLE</button>
+        </a>
+    </div>
+    <div class="nsitem">
+        <img src="https://images.unsplash.com/photo-1615545362149-85299994b09b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG5pa2UlMjBzaG9lc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60" class="nsimg">
+    </div>
+</div>
+<!----------------- Gallery -------------------->
+
+<!----------------- footer -------------------->
+
+<footer id="footer">
+    <div class="footerleft">
+        <div class="footermenu">
+            <h1 class="fmenutitle">About Us</h1>
+            <ul class="fmenuitem">
+                <li class="flisitem">Company</li>
+                <li class="flisitem">Contact</li>
+                <li class="flisitem">Career</li>
+                <li class="flisitem">Affiliates</li>
+                <li class="flisitem">Stores</li>
+            </ul>
+        </div>
+        <div class="footermenu">
+            <h1 class="fmenutitle">Useful Links</h1>
+            <ul class="fmenuitem">
+                <li class="flisitem">Support</li>
+                <li class="flisitem">Refund</li>
+                <li class="flisitem">FAQ</li>
+                <li class="flisitem">Feedback</li>
+                <li class="flisitem">Stories</li>
+            </ul>
+        </div>
+        <div class="footermenu">
+            <h1 class="fmenutitle">Product</h1>
+            <ul class="fmenuitem">
+                <li class="flisitem">Air Force</li>
+                <li class="flisitem">Jordan</li>
+                <li class="flisitem">Blazers</li>
+                <li class="flisitem">Craters</li>
+                <li class="flisitem">Hippie</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerright">
+        <div class="footerleftmenu">
+            <h3 class="footertitle">Suscbire to our Newsletter</h3>
+            <div class="fleftmail">
+                <input type="text" placeholder="email@gmail.com" class="finput">
+                <button class="joinbtn">Join!</button>
+            </div>
+        </div>
+            <div class="footertitle">
+                Follow Us
+            </div>
+            <div class="ficons">
+                <img src="./img/facebook.png" class="ficon">
+                <img src="./img/instagram.png" class="ficon">
+                <img src="./img/twitter.png" class="ficon">
+                <img src="./img/whatsapp.png" class="ficon">
+            </div>
+            <h4 class="footerinfo">@Bigyan Thanait. All Right Reserved, 2022.</h4> 
+        </div>
+    </div>
+</footer>
+
+<!----------------- footer -------------------->
 <script src="script.js"></script>
 </body>
 </html>

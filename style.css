@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 html {
@@ -74,7 +75,7 @@ nav {
 /* slider */
 .slider {
     background: url('https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,7 +189,7 @@ nav {
     height: 100vh;
     background-color: rgb(203, 203, 203);
     position: relative;
-    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .productimg {
@@ -335,3 +336,114 @@ label{
     height: 20px;
 }
 /* procuct */
+
+
+/* gallery */
+
+.gallery{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galleryitem{
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+.galleryimg{
+    width: 100%;
+}
+.newseason{
+    display: flex;
+}
+.nsitem{
+    height: 600px;
+    flex : 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.nstitle{
+    font-size: 40px;
+}
+.nsimg{
+    width: 100%;
+    height: 600px;
+}
+.nsbutton{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* gallery */
+
+
+/* footer */
+#footer{
+    display: flex;
+}
+.footerleft{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    padding: 40px;
+}
+.fmenutitle{
+    font-size: 16px;
+    margin: 15px 0;
+}
+.flisitem{
+    color: rgb(111, 111, 111);
+    cursor: pointer;
+    margin: 5px 0;
+}
+.footerright{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footerright .footerleftmenu{
+    flex: 2;
+}
+.footerright .footerrightmenu{
+    flex: 1;
+}
+.footerright .footertitle{
+    margin: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.finput{
+    width: 250px;
+    height: 25px;
+    padding: 5px;
+    outline: none;
+}
+.joinbtn{
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.ficon{
+    width: 20px;
+    margin-right: 5px;
+}
+.footerinfo{
+    position: relative;
+    top: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+}
+/* footer */
