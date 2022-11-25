@@ -84,10 +84,15 @@ const currentProductTitle=document.querySelector(".producttitle");
 const currentProductPrice=document.querySelector(".productprice");
 const currentProductColor=document.querySelectorAll(".color");
 const currentProductSize=document.querySelectorAll(".size");
+const paymentEl=document.querySelector(".payment");
+const checkoutBtnEl=document.querySelector(".checkoutbtn");
+const closeBtnEl=document.querySelector(".closebtn");
+const productBuyEl=document.querySelector(".productbtn");
 
 menuItemsEl.forEach((item,index)=>{
     item.addEventListener("click",()=>{
         // change product
+        paymentEl.style.display="none";
         removeClass();
         sliderwraperEl.style.transform=`translate(${-100*index}vw)`;
         chooseProduct=product[index];
@@ -116,3 +121,10 @@ currentProductSize.forEach((size)=>{
 })
 
 
+
+productBuyEl.addEventListener("click",()=>{
+    paymentEl.style.display="flex";
+})
+closeBtnEl.addEventListener("click",()=>{
+    paymentEl.style.display="none";
+})

@@ -1,28 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
 }
 
 /* navvar top */
-nav{
+nav {
     background-color: black;
     color: white;
     padding: 20px 50px;
 }
-.navTop{
+
+.navTop {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
     background-color: gray;
@@ -30,41 +35,44 @@ nav{
     border-radius: 10px;
 }
 
-.searchInput{
+.searchInput {
     background-color: transparent;
     border: none;
     outline: none;
     color: white;
 }
-.searchInput::placeholder{
-    color:  lightgray;
+
+.searchInput::placeholder {
+    color: lightgray;
 }
-.navItem span{
+
+.navItem span {
     font-size: 20px;
     border-bottom: 2px solid green;
     cursor: pointer;
 }
+
 /* navvar top */
 
 /* navbar bottom */
 
-.navBottom{
+.navBottom {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menuItem{
+
+.menuItem {
     margin: 10px 25px;
     font-weight: 400;
     color: lightgray;
-    cursor: pointer
+    cursor: pointer;
 }
 
 /* navbar bottom */
 
-
 /* slider */
-.slider{
+.slider {
     background: url('https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     background-position: center;
@@ -72,14 +80,16 @@ nav{
     background-size: cover;
     overflow: hidden;
 }
-.sliderwrapper{
+
+.sliderwrapper {
     display: flex;
     width: 500vw;
     transition: all 1s ease-in-out;
 }
-.sliderbg{
+
+.sliderbg {
     width: 750px;
-    height:750px;
+    height: 750px;
     border-radius: 50%;
     position: absolute;
     display: flex;
@@ -87,7 +97,8 @@ nav{
     align-items: center;
     z-index: -1;
 }
-.slideritem{
+
+.slideritem {
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -95,7 +106,8 @@ nav{
     position: relative;
     z-index: 1;
 }
-.slidertitle{
+
+.slidertitle {
     position: absolute;
     top: 10%;
     right: 10%;
@@ -104,7 +116,8 @@ nav{
     text-align: center;
     font-size: bold;
 }
-.sliderprice{
+
+.sliderprice {
     position: absolute;
     color: white;
     top: 10%;
@@ -115,7 +128,8 @@ nav{
     border: 1px solid white;
     font-weight: 400;
 }
-.buybtn{
+
+.buybtn {
     position: absolute;
     color: white;
     top: 40%;
@@ -126,7 +140,8 @@ nav{
     background: black;
     font-weight: 300;
 }
-.buybtn:hover{
+
+.buybtn:hover {
     background-color: white;
     color: black;
 }
@@ -134,29 +149,33 @@ nav{
 /* slider */
 
 /* features */
-.features{
+.features {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 50px 0  ;
+    margin: 50px 0;
 }
-.feature{
+
+.feature {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.featureimg{
+
+.featureimg {
     margin: 10px 0;
     width: 50px;
     height: 50px;
 }
-.featuretitle{
+
+.featuretitle {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0 10px 0;
 }
-.featuredecp{
+
+.featuredecp {
     margin: 10px 0;
     color: grey;
     text-align: center;
@@ -164,55 +183,65 @@ nav{
 
 /* features */
 
-
 /* procuct */
-.product{
+.product {
     height: 100vh;
-    background-color: rgb(113, 156, 136);
+    background-color: rgb(203, 203, 203);
     position: relative;
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
-.productimg{
+
+.productimg {
     width: 50%;
 }
-.productdetail{
+
+.productdetail {
     position: absolute;
     top: 10%;
     right: 0;
     width: 40%;
     padding: 50px;
 }
-.producttitle{
+
+.producttitle {
     font-size: 75px;
     font-weight: bold;
     margin: 40px 0;
 }
-.colors,.sizes{
+
+.colors,
+.sizes {
     display: flex;
     justify-content: start;
     align-items: center;
 }
-.color{
+
+.color {
     width: 30px;
     height: 30px;
     margin: 10px 10px 10px 0;
     border-radius: 5px;
     cursor: pointer;
-    transition: transform .2s ease-in;
+    transition: transform 0.2s ease-in;
 }
-.color:hover{
+
+.color:hover {
     transform: scale(1.2);
 }
-.color:nth-child(1){
+
+.color:nth-child(1) {
     background-color: rgb(1, 1, 4);
 }
-.color:nth-child(2){
+
+.color:nth-child(2) {
     background-color: lightblue;
 }
-.productdecp{
+
+.productdecp {
     margin: 10px 0;
 }
-.productbtn{
+
+.productbtn {
     color: white;
     top: 40%;
     right: 10%;
@@ -222,19 +251,86 @@ nav{
     background: black;
     font-weight: 300;
 }
-.productbtn:hover{
+
+.productbtn:hover {
     background-color: white;
     color: black;
 }
-.size{
+
+.size {
     margin: 10px 10px 10px 0;
     border: 2px solid black;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
 }
-.active{
+
+.active {
     background-color: black;
     color: white;
+}
+
+.payment {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    padding: 10px 50px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0px 1px 5px 6px rgba(136, 136, 136, 0.5);
+}
+.paymenttitle{
+    color: lightgrey;
+    margin: 20px 0;
+    text-align: center;
+}
+label{
+    font-size: 16px;
+    color:rgb(69, 69, 69);
+    margin: 10px 0;
+}
+.payinput{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 3px;
+}
+.cardinfo{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.cardinfo .payinput{
+    margin: 10px 0;
+    width: 40%;
+}
+.checkoutbtn{
+    width: 100%;
+    background-color: #41D86B;
+    color: white;
+    border: none;
+    height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
+.closebtn{
+    position: absolute;
+    background: transparent;
+    border: none;
+    right: 20px;    
+}
+.closeimg{
+    width: 20px;
+    height: 20px;
 }
 /* procuct */
