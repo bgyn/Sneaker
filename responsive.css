@@ -1,0 +1,140 @@
+@media screen and (max-width: 480px){
+    nav{
+        padding: 20px;
+    }
+    .search{
+        display: none;
+    }
+    .menuItem{
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .navBottom{
+        flex-wrap: wrap;
+    }
+
+    
+    .sliderimg{
+        width: 90%;
+    }
+    .slidertitle{
+        font-size: 18px;
+    }
+    .sliderprice{
+        top: 30%;
+        left: 72%;
+        font-size: 30px;
+    }
+    .buybtn{
+        width: 80px;
+        font-size: 12px;
+        padding: 5px;
+        top: 45%;
+    }
+
+    .features{
+        margin: 20px;
+    }
+    .featureimg{
+        width: 40px;
+        height: 40px;
+    }
+    .featuretitle{
+        font-size: 12px;
+    }
+    .featuredecp{
+        font-size: 10px;
+    }
+
+    .product{
+        height: 80vh;
+    }
+    .productimg{
+        width: 50%;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+    .productdetail{
+        position: absolute;
+        right: 10%;
+    }
+    .producttitle{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .productprice{
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .productdecp{
+        font-size: 11px;
+    }
+    .color{
+        width: 25px;
+        height: 25px;
+    }
+    .size{
+        width: 25px;
+        height: 25px;
+        padding: 3px;
+        font-size: 12px;
+    }
+    .productbtn{
+        width: 80px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .payment{
+        position: absolute;
+        top: 10%;
+        font-size: 16px;
+        width: 300px;
+        height: 500px;
+        padding: 10px 20px;
+    }
+    .paymenttitle{
+        font-size: 20px;
+    }
+
+    .gallery{
+        margin: 20px;
+    }
+    .gallerytitle{
+        font-size: 20px;
+    }
+    .galleryitem{
+        padding: 0 10px;
+    }
+    .galleryimg{
+        width: 120px;
+    }
+
+    .nsitem{
+        height: 250px;
+    }
+
+    .nstitlesm{
+        font-size: 18px;
+    }
+    .nstitle{
+        font-size: 16px;
+    }
+    .nsbutton{
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
+    }
+    .nsimg{
+        width: 100%;
+    }
+
+    #footer{
+        flex-direction: column;
+    }
+    .footerleft ,.footerright{
+        padding: 30px;
+    }
+}
