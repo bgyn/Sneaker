@@ -265,6 +265,9 @@ nav {
     border-radius: 5px;
     cursor: pointer;
 }
+.sizesm{
+    display: none;
+}
 
 .active {
     background-color: black;
@@ -424,13 +427,13 @@ label{
 }
 .finput{
     width: 250px;
-    height: 25px;
+    height: 30px;
     padding: 5px;
     outline: none;
 }
 .joinbtn{
     width: 50px;
-    height: 30px;
+    height: 33px;
     color: white;
     background-color: black;
     border-radius: 10px;
