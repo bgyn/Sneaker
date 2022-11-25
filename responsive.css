@@ -19,11 +19,12 @@
         width: 90%;
     }
     .slidertitle{
+        right: 5%;
         font-size: 18px;
     }
     .sliderprice{
         top: 30%;
-        left: 72%;
+        left: 73%;
         font-size: 30px;
     }
     .buybtn{
@@ -31,33 +32,39 @@
         font-size: 12px;
         padding: 5px;
         top: 45%;
+        left: 73%;
     }
 
     .features{
-        margin: 20px;
+        margin: 0 10px;
+    }
+    .feature{
+        padding: 0 2px;
     }
     .featureimg{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
     .featuretitle{
-        font-size: 12px;
+        font-size: 9px;
     }
     .featuredecp{
-        font-size: 10px;
+        text-align: center;
+        font-size: 9px;
     }
 
     .product{
-        height: 80vh;
+        height: 60vh;
     }
     .productimg{
-        width: 50%;
+        width: 55%;
         position: absolute;
         top: 30%;
         left: 5%;
     }
     .productdetail{
         position: absolute;
+        top: 0;
         right: 10%;
     }
     .producttitle{
@@ -69,11 +76,11 @@
         margin: 20px 0;
     }
     .productdecp{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .color{
-        width: 5vw;
-        height: 3vh;
+        width: 8vw;
+        height: 5vw;
     }
     .size{
         display: none;
@@ -93,11 +100,11 @@
 
     .payment{
         position: absolute;
-        top: 10%;
+        top: 8%;
         font-size: 16px;
         width: 300px;
-        height: 460px;
-        padding: 10px 20px;
+        height: 425px;
+        padding: 2px 20px;
     }
     .paymenttitle{
         font-size: 20px;
@@ -110,7 +117,7 @@
         justify-content: space-between;
     }
     .gallerytitle{
-        font-size: 20px;
+        font-size: 18px;
     }
     .galleryitem{
         margin: 0 5px;
@@ -124,10 +131,10 @@
         height: 250px;
     }
     .nstitlesm{
-        font-size: 18px;
+        font-size: 16px;
     }
     .nstitle{
-        font-size: 16px;
+        font-size: 14px;
     }
     .nsbutton{
         width: 100px;
@@ -145,7 +152,12 @@
         padding: 25px;
     }
     .finput{
-        width: 330px;
+        width: 70vw;
+    }
+    .fleftmail{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
     }
     .footertitle{
         text-align: center;
